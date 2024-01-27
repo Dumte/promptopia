@@ -1,5 +1,5 @@
-import '@stlyes/globals.css'
-import { Children } from 'react'
+"use client"
+import '@styles/globals.css'
 
 export const metadata = {
   title: "Promptopia",
@@ -13,7 +13,7 @@ const RootLayout = () => {
       </div>
 
       <main className="app">
-        {Children}
+        {children}
       </main>
     </html>
   )
